@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style6.css">
+    <title>Retroaction</title>
+    
+</head>
+<body>
+
+   <p> <a href="Menuprincipal.html">Retour à la page d'accueil </a></p>
+
+
+   <h1>Bienvenue sur notre page de rétroaction</h1>
+   <p>Nous prenons en compte chacun de vos commentaires sur nos produits et notre service. Veuillez remplir le formulaire ci dessous et cliquer sur le bouton Envoyer.</p> 
+
+<form>
+<label>Votre nom : </label>
+<input type="text" id="name"><br>
+<label>Votre adresse e-mail: </label>
+<input type="email" id="email"><br>
+<label> Le produit que vous avez acheté: </label>
+<select id="product" name="product"><br>
+
+<option value="Samsungs20">Samsung s20</option>
+<option value="Samsungs23">Samsung s23</option>
+<option value="Samsungs10">Samsung s10</option>
+<option value="Mackbook2018"> Mack book Air 2018</option>
+<option value="OrdinateurAsus">Ordinateur Asus</option>
+<option value="OrdinateurLenovo"> Ordinateur Lenovo</option>
+<option value="OrdinateurHP">Ordinateur HP</option>
+
+</select><br>
+
+<label>Votre évaluation du produit (de 1 à 5 étoiles) : </label>
+<input type="number" id="note" nom="note" min="1" max="5"required><br>
+<label for="commentaire">Votre commentaire sur le produit et le service :</label>
+<div>
+    <textarea id="commentaire" nom="commentaire" rows="5" cols="40" required></textarea><br>
+</div>
+<input type="submit" value="Envoyer">
+</form>
+
+
+
+</body>
+</html>

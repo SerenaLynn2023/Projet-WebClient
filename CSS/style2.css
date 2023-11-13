@@ -1,0 +1,75 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,500&display=swap');
+
+
+
+html {
+    
+    scroll-behavior: smooth;
+    background-image: linear-gradient( rgba(96, 76, 76, .6), rgba(96, 76, 76, .6)), url("https://www.shutterstock.com/shutterstock/videos/1100422615/thumb/1.jpg?ip=x480");
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+form{
+
+    
+    text-align: center;
+
+
+}
+
+h1{
+    color: aliceblue;
+    text-decoration-line: underline;
+}
+a{
+    font-size: 15px;
+    color: white;
+}
+label{
+    align-items: flex-start;
+    color: aliceblue;
+}
+
+
+input{ 
+    
+    color: aliceblue;
+}
+
+#input{ 
+    margin: 20px;
+    color: aliceblue;
+}
+#input1{ 
+    margin-left: 23px;
+    color: aliceblue;
+    
+}
+#input2{ 
+    margin: 20px;
+    color: aliceblue;
+}
+
+#input3{ 
+    margin-right: 200px;
+    color: aliceblue;
+    margin-right: 10px;
+}
+
+
+#label3{
+
+    margin-right:10px ;
+}
+
+
+label{
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+#submit{
+    color: black;
+}

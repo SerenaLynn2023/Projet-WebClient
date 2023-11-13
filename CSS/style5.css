@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,500&display=swap');
+
+html{
+
+    background-image: linear-gradient( rgba(96, 76, 76, .6), rgba(96, 76, 76, .6)), url("https://www.shutterstock.com/shutterstock/videos/1100422615/thumb/1.jpg?ip=x480");
+
+   color: white;
+   text-align: center;
+   font-size: 20px;
+   font-family: 'Roboto', sans-serif
+}
+a{
+    color: white;
+    text-decoration-line: none;
+}
+h1{
+    text-decoration-line: underline;
+}
