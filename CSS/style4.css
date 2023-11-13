@@ -10,11 +10,16 @@ html{
 body{
 
 size: 100px;
- a{
-    text-decoration-line: none;
- }
+text-align: center;
 
 }
+ a{
+    text-decoration-line: none;
+    text-align: center;
+    color: aliceblue;
+ }
+
+
 h2{
     text-decoration-line: underline;
     margin-bottom: 50px;
