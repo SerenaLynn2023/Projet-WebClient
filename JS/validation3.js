@@ -43,13 +43,6 @@ formulaire.addEventListener('submit', function(event){
     }
     courriel.style.border=''
     
-    if (!codePostalRegex.test(values.addresse_postale)) {
-        
-        addresse_postale.style.border = '2px solid red'
-       
-        return
-    }
-    addresse_postale.style.border=''
     
     
     
