@@ -1,5 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,500&display=swap');
 
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+
+/*
+ Règle à ajouter pour tablette électronique
+*/
+@media (min-width: 640px){
+    
+}
+
+/*
+ Règle à ajouter pour ordinateur
+*/
+@media (min-width: 1200px){
+    
+}
+
+
 html{
     background-image: linear-gradient( rgba(96, 76, 76, .6), rgba(96, 76, 76, .6)), url("https://www.shutterstock.com/shutterstock/videos/1100422615/thumb/1.jpg?ip=x480");
     font-family: 'Roboto', sans-serif
@@ -11,15 +36,17 @@ div{
     margin: 30px;
 }
 input{
-margin: 40px;
+    margin: 20px;
 
 }
 body{
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     color: aliceblue;
 }
 label{
+    
+
     margin-inline-start: auto;
     text-align: left;
 }
@@ -28,4 +55,7 @@ color: aliceblue;
 }
 a{
     text-decoration: none;
+}
+select{
+    margin: 20px;
 }
