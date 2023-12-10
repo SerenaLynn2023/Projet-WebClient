@@ -59,7 +59,7 @@ if (!codePostalRegex.test(values.addresse_postale)) {
 }
 addresse_postale.style.border=''
 if (!courrielRegex.test(values.addresse_courriel)) {
-    console.log('Le c p ne suit les regles')
+    console.log('L addresse ne suit les regles')
     courriel.style.border = '2px solid red'
     
     return

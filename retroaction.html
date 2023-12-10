@@ -15,11 +15,11 @@
    <h1>Bienvenue sur notre page de rétroaction</h1>
    <p>Nous prenons en compte chacun de vos commentaires sur nos produits et notre service. Veuillez remplir le formulaire ci dessous et cliquer sur le bouton Envoyer.</p> 
 
-<form>
+<form name="retroaction">
 <label>Votre nom : </label>
-<input type="text" id="name"><br>
+<input type="text" id="name" name="nom"><br>
 <label>Votre adresse e-mail: </label>
-<input type="email" id="email"><br>
+<input type="email" id="email" name="courriel"><br>
 <label> Le produit que vous avez acheté: </label>
 <select id="product" name="product"><br>
 
@@ -41,6 +41,16 @@
 </div>
 <input type="submit" value="Envoyer">
 </form>
+
+<div id="remerciemets">
+	<h2>Merci <span id="nom_client"></span> pour votre participation!</h2>
+	<div>
+		<p>Votre produit
+	 <span id="nom_appareil"></span> 		
+		a été évalué.</p>
+		
+	</div>
+</div>
 
 </body>
 </html>
