@@ -18,11 +18,11 @@ const courrielRegex=/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"
 
 formulaire.addEventListener('submit', function(event){
     event.preventDefault()
-    const{nom,courriel,addresse_postale}=formulaire
+    const{nom,courriel,product}=formulaire
     
     //Reccupération des valeurs dans le formulaire
     
-    const values={ nom:nom.value,addresse_courriel:courriel.value,addresse_postale:addresse_postale.value}
+    const values={ nom:nom.value,addresse_courriel:courriel.value, produit:product.value}
     
     
     
@@ -43,7 +43,10 @@ formulaire.addEventListener('submit', function(event){
     }
     courriel.style.border=''
     
-    
+    remerciement.style.display = 'block'
+    nomclient.innerHTML = values.nom
+    nomapppareil.innerHTML=product.options[product.selectedIndex].text
+   
     
     
     }

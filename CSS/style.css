@@ -1,28 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,500&display=swap');
 
-html {
-    box-sizing: border-box;
-}
 
-*, *::before, *::after {
-    box-sizing: inherit;
-}
-
-
-
-/*
- Règle à ajouter pour tablette électronique
-*/
-@media (min-width: 640px){
-    
-}
-
-/*
- Règle à ajouter pour ordinateur
-*/
-@media (min-width: 1200px){
-    
-}
 
 
 
